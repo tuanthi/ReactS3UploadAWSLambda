@@ -1,0 +1,22 @@
+{
+  "name": "react-s3-upload-with-thumbnail-view",
+  "version": "1.0.0",
+  "description":
+    "Upload file to S3 then wait for AWS Lambda Thumbnail generation",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "aws-s3": "1.4.0",
+    "aws-sdk": "2.241.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
